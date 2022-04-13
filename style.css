@@ -1,0 +1,25 @@
+* {
+    font-family: sans-serif;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu li {
+    float:left;
+    margin-right: 5px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: seashell;
+    background-color: seagreen;
+    padding: 5px 10px;
+}
+
+.menu li a:hover {
+    background-color: lightseagreen;
+}
