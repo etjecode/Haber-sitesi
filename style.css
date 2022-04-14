@@ -8,10 +8,11 @@
     list-style-type: none;
     margin: 0px;
     padding: 0px;
-    background-color: gray;
+    background-color: silver;
     height: 35px;
     line-height: 35px;
-    border-bottom: 1px solid gray;
+    border-bottom: 5px solid silver;
+    font-weight: bold;
 }
 
 .menu li {
@@ -20,14 +21,14 @@
 
 .menu li a {
     text-decoration: none;
-    color: silver;
+    color: black;
     padding: 0px 10px;
     display: block;
 }
 
 .menu li a:hover {
     background-color: black;
-    color: orange;
-    border-bottom: 1px solid orange;
-    transition: all ease-in 0.2s;
+    color: blueviolet;
+    border-bottom: 5px solid blueviolet;
+    transition: all ease-in 0.3s;
 }
